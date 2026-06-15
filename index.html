@@ -3,61 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Articol Profesional - Tehnologia Viitorului</title>
+    <title>Aeon Blog - Gândire Profundă și Analiză Contemporană</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <article class="professional-article">
-        <!-- Header articol -->
-        <header class="article-header">
-            <div class="article-meta">
-                <span class="category">Tehnologie</span>
-                <time datetime="2026-06-15">15 Iunie 2026</time>
-            </div>
-            <h1 class="article-title">Inteligența Artificială în 2026: Transformarea Digitală a Societății</h1>
-            <p class="article-subtitle">O analiză comprehensivă asupra evoluției AI și impactul său asupra vieții cotidiene</p>
-            <div class="author-info">
-                <div class="author-details">
-                    <span class="author-name">Alexandru Popescu</span>
-                    <span class="author-title">Senior Technology Analyst</span>
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Aeon</h1>
                 </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Acasă</a></li>
+                    <li><a href="#articole">Articole</a></li>
+                    <li><a href="#despre">Despre</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
-        </header>
-
-        <!-- Cuprins -->
-        <nav class="table-of-contents">
-            <h2>Cuprins</h2>
-            <ol>
-                <li><a href="#introducere">Introducere</a></li>
-                <li><a href="#evolutia-ai">Evoluția AI în ultimii ani</a></li>
-                <li><a href="#aplicatii-practice">Aplicații practice</a></li>
-                <li><a href="#provocari">Provocări și oportunități</a></li>
-                <li><a href="#concluzii">Concluzii</a></li>
-            </ol>
         </nav>
+    </header>
 
-        <!-- Abstract -->
-        <section class="abstract">
-            <h2>Abstract</h2>
-            <p>Inteligența artificială a atins un nivel de maturitate remarcabil în 2026, transformând fundamental modul în care interacționăm cu tehnologia. Acest articol explorează evoluțiile recente, aplicațiile practice și implicațiile viitoare ale AI în diverse sectoare economice și sociale.</p>
-        </section>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Gândire Profundă pentru Epoca Digitală</h1>
+            <p class="hero-subtitle">Explorăm ideile care modelează lumea de mâine prin perspectiva filosofiei, științei și culturii contemporane.</p>
+            <div class="hero-cta">
+                <a href="#articole" class="cta-button">Explorează Articolele</a>
+            </div>
+        </div>
+    </section>
 
-        <!-- Conținut principal -->
-        <main class="article-content">
-            <section id="introducere">
-                <h2>1. Introducere</h2>
-                <p>În ultimii ani, <strong>inteligența artificială</strong> a evoluat de la o promisiune futuristă la o realitate tangibilă care ne influențează viața de zi cu zi. De la asistenții vocali la vehiculele autonome, AI-ul și-a găsit locul în aproape toate sectoarele economice.</p>
-                
-                <blockquote class="highlight-quote">
-                    "AI nu este doar o tehnologie, ci o forță transformatoare care redefinește limitele posibilului în era digitală." - Dr. Maria Ionescu, MIT
-                </blockquote>
+    <!-- Featured Quote -->
+    <section class="featured-quote">
+        <blockquote>
+            "În era informației, cunoașterea nu este putere. Înțelegerea este putere."
+            <cite>— Reflecție contemporană</cite>
+        </blockquote>
+    </section>
 
-                <p>Această transformare nu este doar tehnologică, ci și socială, economică și etică, ridicând întrebări importante despre viitorul muncii, confidențialitatea datelor și rolul omului în societatea automatizată.</p>
-            </section>
+    <!-- Articles Section -->
+    <section id="articole" class="articles-section">
+        <div class="articles-container">
+            <header class="section-header">
+                <h2>Articole Recente</h2>
+                <p>Analize și reflecții asupra temelor care definesc epoca noastră</p>
+            </header>
 
-            <section id="evolutia-ai">
-                <h2>2. Evoluția AI în ultimii ani</h2>
-                
+            <div class="articles-grid">
+                <!-- Articol 1 -->
+                <article class="article-card featured">
+                    <div class="article-meta">
+                        <span class="category">Tehnologie</span>
+                        <time datetime="2026-06-15">15 Iunie 2026</time>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#article1">Inteligența Artificială în 2026: Transformarea Digitală a Societății</a>
+                    </h3>
+                    <p class="article-excerpt">
+                        O analiză comprehensivă asupra evoluției AI și impactul său asupra vieții cotidiene. Explorăm cum tehnologia redefine limitele posibilului și provocările etice care apar în calea progresului.
+                    </p>
+                    <div class="article-footer">
+                        <div class="author-info">
+                            <span class="author-name">Alexandru Popescu</span>
+                            <span class="read-time">12 min citire</span>
+                        </div>
+                        <a href="#article1" class="read-more">Citește →</a>
+                    </div>
