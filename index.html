@@ -3,74 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aeon Blog - Gândire Profundă și Analiză Contemporană</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Editorial - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Navigation -->
-    <header class="site-header">
-        <nav class="main-nav">
-            <div class="nav-container">
-                <div class="logo">
-                    <h1>Aeon</h1>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#home">Acasă</a></li>
-                    <li><a href="#articole">Articole</a></li>
-                    <li><a href="#despre">Despre</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div id="progress-bar"></div>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="hero-content">
-            <h1 class="hero-title">Gândire Profundă pentru Epoca Digitală</h1>
-            <p class="hero-subtitle">Explorăm ideile care modelează lumea de mâine prin perspectiva filosofiei, științei și culturii contemporane.</p>
-            <div class="hero-cta">
-                <a href="#articole" class="cta-button">Explorează Articolele</a>
+    <!-- HEADER -->
+    <header>
+        <div class="site-header">
+            <div class="header-left">
+                <a href="index.html" class="logo">EDITORIAL</a>
+            </div>
+            <nav>
+                <a href="#articles">ARTICOLE</a>
+                <a href="#about">DESPRE</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+            <div class="header-actions">
+                <div class="search-trigger-container">
+                    <label class="search-label">
+                        <svg class="lupa-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </label>
+                    <input type="text" class="expandable-search" placeholder="Caută...">
+                </div>
             </div>
         </div>
-    </section>
+    </header>
 
-    <!-- Featured Quote -->
-    <section class="featured-quote">
-        <blockquote>
-            "În era informației, cunoașterea nu este putere. Înțelegerea este putere."
-            <cite>— Reflecție contemporană</cite>
-        </blockquote>
-    </section>
+    <!-- MAIN CONTAINER -->
+    <div class="container-grid">
+        <!-- HERO SECTION -->
+        <section class="editorial-hero">
+            <span class="eyebrow">Bun venit</span>
+            <h1>Explorează noi perspective</h1>
+            <p class="lede">Un spațiu dedicat articolelor editoriale și eseurilor gândite cu atenție.</p>
+        </section>
 
-    <!-- Articles Section -->
-    <section id="articole" class="articles-section">
-        <div class="articles-container">
-            <header class="section-header">
-                <h2>Articole Recente</h2>
-                <p>Analize și reflecții asupra temelor care definesc epoca noastră</p>
-            </header>
-
-            <div class="articles-grid">
-                <!-- Articol 1 -->
-                <article class="article-card featured">
-                    <div class="article-meta">
-                        <span class="category">Tehnologie</span>
-                        <time datetime="2026-06-15">15 Iunie 2026</time>
+        <!-- FEATURED ARTICLES -->
+        <section id="articles">
+            <!-- Article 1 -->
+            <article class="featured-article">
+                <div class="featured-article-content">
+                    <span class="card-badge">TECH</span>
+                    <h1>Viitorul Inteligenței Artificiale</h1>
+                    <p>O analiză profundă despre cum AI redefinește industria și societatea modernă.</p>
+                    <div class="feature-meta">
+                        <span>25 iunie 2026</span>
+                        <span>8 min lectura</span>
                     </div>
-                    <h3 class="article-title">
-                        <a href="#article1">Inteligența Artificială în 2026: Transformarea Digitală a Societății</a>
-                    </h3>
-                    <p class="article-excerpt">
-                        O analiză comprehensivă asupra evoluției AI și impactul său asupra vieții cotidiene. Explorăm cum tehnologia redefine limitele posibilului și provocările etice care apar în calea progresului.
-                    </p>
-                    <div class="article-footer">
-                        <div class="author-info">
-                            <span class="author-name">Alexandru Popescu</span>
-                            <span class="read-time">12 min citire</span>
-                        </div>
-                        <a href="#article1" class="read-more">Citește →</a>
+                    <a href="article-1.html" class="ghost-link">Citește articolul →</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1677442d019e157395c71e3e9c64e0ae2513a4e7?w=600&h=400&fit=crop" alt="AI">
+            </article>
+
+            <!-- Article 2 -->
+            <article class="featured-article">
+                <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=600&h=400&fit=crop" alt="Cultură">
+                <div class="featured-article-content">
+                    <span class="card-badge">CULTURĂ</span>
+                    <h1>Arta Digitală Contemporană</h1>
+                    <p>Cum tehnologia schimbă peisajul artistic și democratizează creația.</p>
+                    <div class="feature-meta">
+                        <span>20 iunie 2026</span>
+                        <span>6 min lectura</span>
                     </div>
+                    <a href="article-2.html
